@@ -509,6 +509,11 @@
           <outline text="udf|pixeltable.functions.videodb.upload" />
           <outline text="udf|pixeltable.functions.videodb.transcribe" />
           <outline text="udf|pixeltable.functions.videodb.describe_scenes" />
+          <outline text="udf|pixeltable.functions.videodb.read_text" />
+          <outline text="udf|pixeltable.functions.videodb.detect_brands" />
+          <outline text="udf|pixeltable.functions.videodb.recognize_activity" />
+          <outline text="udf|pixeltable.functions.videodb.detect_location" />
+          <outline text="udf|pixeltable.functions.videodb.detect_objects" />
         </outline>
         <outline text="module|pixeltable.functions.vllm">
           <outline text="udf|pixeltable.functions.vllm.chat_completions" />
@@ -544,7 +549,14 @@
           <outline text="udf|pixeltable.functions.yolox.yolo_to_coco" />
         </outline>
         <outline text="class|pixeltable.functions.twelvelabs.EmbeddingResult" />
+        <outline text="class|pixeltable.functions.videodb.BrandMention" />
+        <outline text="class|pixeltable.functions.videodb.FrameObjects" />
+        <outline text="class|pixeltable.functions.videodb.ObjectDetection" />
+        <outline text="class|pixeltable.functions.videodb.OnScreenText" />
+        <outline text="class|pixeltable.functions.videodb.SceneActivity" />
+        <outline text="class|pixeltable.functions.videodb.SceneBrands" />
         <outline text="class|pixeltable.functions.videodb.SceneDescription" />
+        <outline text="class|pixeltable.functions.videodb.SceneLocation" />
         <outline text="class|pixeltable.functions.videodb.TranscriptSegment" />
         <outline text="class|pixeltable.functions.whisper.WhisperSegment" />
         <outline text="class|pixeltable.functions.whisper.WhisperTranscription" />
